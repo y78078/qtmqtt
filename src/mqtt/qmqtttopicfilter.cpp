@@ -26,6 +26,7 @@
 ** $QT_END_LICENSE$
 **
 ******************************************************************************/
+//Fix error if using Qt5.7 qmake to crosscompile this project may cause some problems between string & char
 
 #include "qmqtttopicfilter.h"
 
